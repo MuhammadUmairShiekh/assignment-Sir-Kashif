@@ -47,6 +47,10 @@
 // <<<<<<<<<_____________>>>>>>>></_____________>
 
  //ques5 
+
+//  let num1 = +prompt("Enter Firts Value")
+//  let num2 = +prompt("Enter Second Value")
+//  let operator = prompt("Enter Operator")
 // function calculate(num1, num2, operator) {
 //   switch (operator) {
 //     case '+':
@@ -60,20 +64,10 @@
 //         return 'Division by zero is not allowed';
 //       }
 //       return num1 / num2;
-//     case '%':
+//       default:
 //       return 'Invalid operator';
-//       // return num1 % num2;
+      
 //   }
 // }
-// // Example usage:
-// let result = calculate(5, 3, '+'); // This will compute 5 + 3
-// console.log(result); // Output: 8
 
-// let result2 = calculate(10, 2, '*'); // This will compute 10 * 2
-// console.log(result2); // Output: 20
-
-// let result3 = calculate(8, 0, '/'); // This will handle division by zero
-// console.log(result3); // Output: "Division by zero is not allowed"
-
-// let result4 = calculate(10, 4, '%'); // This will compute 7  % 4
-// console.log(result4); // Output: "Invalid operator"
+// console.log(calculate(2,2,"+"))
