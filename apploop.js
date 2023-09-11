@@ -22,16 +22,19 @@
 // let user1 = userChoice.slice(0,1).toUpperCase()
 // let user2 = userChoice.slice(1).toLowerCase()
 // let plus = user1+user2
-// const backey = ["Cake","Apple pei","Cookei","Chips","Patties"];
+// const backey = ["Cake","Apple pei","Cookei","Chips","Patties","Patties"];
 // let match = false 
 // for(let i = 0;i<backey.length;i++){
+//     // debugger
 //     if(plus == backey[i]){
 //         match = true
+//         // alert("Yes")
 //         Swal.fire( 
 //             plus + ' Is Avalable At Index ' + i + 'in Our Bakery ' ,
 //             'You Can Order Now',
 //              'success' 
-//              )
+//              ) 
+//              break
         
 //     }   
     
@@ -62,11 +65,16 @@
 // Ques 15
 
 // let numArry = [ [1,2,3] , [4,5,6] , [7,8,9] ]
+// // debugger
+
 // for(let i = 0;i<numArry.length; i++){
 // let line = ''
+// // debugger
 //     for(let j = 0; j<numArry[i].length; j++){
-//        line = line + numArry[i][j]
-// }console.log(line) 
+//        line += numArry[i][j]
+//     // console.log(numArry[i][j])
+// }
+//     console.log(line) 
 
 // }
 
